@@ -1,0 +1,98 @@
+name: shop
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.2 <3.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  get:
+  page_view_dot_indicator:
+  shared_preferences: ^2.0.15
+  animated_text_kit: ^4.2.2
+  http:
+  convert:
+  floating_action_bubble: ^1.1.4
+  carousel_slider:
+  curved_navigation_bar: ^1.0.3
+  eva_icons_flutter:
+  device_info_plus:
+  cached_network_image:
+  overlay_support:
+  photo_view:
+  google_fonts:
+  lottie: ^2.0.0
+  gesture_zoom_box:
+  awesome_dialog: ^3.0.2
+  custom_radio_grouped_button:
+  flutter_launcher_icons:
+  avatar_glow:
+  connectivity_plus:
+  page_view_indicators: ^2.0.0
+  page_indicator:
+  velocity_x: ^3.6.0
+  font_awesome_flutter: ^10.2.1
+  flutter_barcode_scanner:
+  chat_bubbles:
+  get_storage: ^2.0.3
+  image_picker:
+dev_dependencies:
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/image/Logo3.png"
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+     - assets/image/
+     - assets/lotti/
+  #   - images/a_dot_ham.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+
+  # example:
+  fonts:
+     - family: OPTIBodoni
+       fonts:
+         - asset: assets/fonts/OPTIBodoni-Antiqua.otf
+     - family: BigVesta
+       fonts:
+         - asset: assets/fonts/BigVesta-Arabic-Regular.ttf
+     - family: Nunito
+       fonts:
+         - asset: assets/fonts/Nunito-Regular.ttf
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
